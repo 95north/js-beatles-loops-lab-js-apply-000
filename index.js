@@ -28,6 +28,7 @@ function iLoveTheBeatles(number_input){
       output_array.push("I love the Beatles!")
       counter--;
     } else {
+      output_array.push("I love the Beatles!")      
       return output_array;  // break loop. maybe just "return" better?
     }
   }
