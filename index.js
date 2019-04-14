@@ -13,7 +13,7 @@ function johnLennonFacts(facts_array){
   var output_array = [];
   var counter = facts_array.length -1  // added -1 bc 1st line returns undefined
   while(counter >= 0) {
-    output_array.push(facts_array[counter]+"!!!");
+    output_array.unshift(facts_array[counter]+"!!!");
     counter--;
   }
   return output_array;
