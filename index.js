@@ -22,7 +22,7 @@ function johnLennonFacts(facts_array){
 
 function iLoveTheBeatles(number_input){
   var output_array=[];
-  var counter = 15 - number_input
+  var counter = Math.abs(15 - number_input)
   while (counter > 0) {   //increment # passed in as parameter
     if (number_input <15){
       output_array.push("I love the Beatles!")
