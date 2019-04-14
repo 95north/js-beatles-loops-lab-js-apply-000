@@ -27,7 +27,7 @@ function iLoveTheBeatles(number_input){
     if (number_input <15){
       output_array.push("I love the Beatles!")
       counter--;
-    } else {
+    } else {       // never runs bc counter is negative # for 17
       output_array.push("I love the Beatles!")      
       return output_array;  // break loop. maybe just "return" better?
     }
