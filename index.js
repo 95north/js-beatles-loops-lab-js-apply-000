@@ -22,7 +22,7 @@ function johnLennonFacts(facts_array){
 
 function iLoveTheBeatles(number_input){
   var output_array=[];
-  var counter = 15 - number_input
+  var counter = number_input - 15 
   while (counter > 0) {
     if (number_input <15){
       output_array.push("I love the Beatles!")
